@@ -1,0 +1,304 @@
+/* Navigation Styling */
+nav {
+    display: flex;
+    background-color:red;
+    background-image:linear-gradient(#acf0ff,rgb(237, 210, 237));
+    color: #fff;
+    padding: 10px;
+    position:sticky;
+    top: 0px;
+    z-index: 9999;	
+}
+nav ul {
+    
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size:large;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav ul li a:hover {
+    color:rgb(123, 106, 106);
+}
+h2 a{
+     text-decoration: none;
+     color:#fff;
+     text-align-last: initial;
+}
+h2 a:hover{
+    color: rgb(123, 106, 106);
+    
+}
+.logo{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+.logo img{
+    height:40px;width:40px;border-radius:50%
+}
+.background{
+    background-color:#d3edf3; 
+    height: fit-content;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;	
+}
+
+#intro{
+    background-color:rgb(237, 210, 237) ;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    
+}
+.photo{
+    margin-top: 50px;
+    margin-left:100px ;
+}
+.me{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+}
+.me:hover{
+    height: 305px;
+    width: 305px;
+}
+.myself{
+    padding-top: 70px;
+    padding-left: 180px;
+    width: 530px;
+
+}	
+.myself h2{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(110, 88, 88);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    animation: typing 2s steps(30, end); /* The typewriter effect */
+   
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 500px;height:fit-content }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+.myself h3{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(123, 106, 106);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    animation: typing 4s steps(30, end);
+}
+.photo-about{
+    display: flex;
+    
+}
+
+.about{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 80px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:x-large;
+    color: rgb(110, 88, 88);
+    width: 500px;
+}
+
+.coding-img{
+    padding-top: 60px;
+    padding-left: 100px;
+    height: 350px;
+    width: 550px;
+    opacity: 75%;
+    
+    
+}
+.photo-about-img{
+    margin-right:1px;
+    margin-top:1px
+}
+.myself :hover{
+    color: #fff;
+}
+#background-1{
+    background-color: rgb(237, 210, 237);
+    height: 900px;
+    width: 100%;
+}
+.skills-1{
+    padding-left: 100px ;
+    padding-top: 60px;
+    font-size: larger;
+    color: rgb(110, 88, 88);
+}
+.skills-logo{
+    padding-left: 100px ;
+    padding-right: 100px ;
+    height: fit-content;
+    width: 100%;
+    box-sizing: border-box
+
+}
+.container-1{
+    width: 100%;
+    background-color: #938c8c;
+    box-sizing: border-box;
+     border-radius:20px
+}
+            
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  box-sizing: border-box
+}
+
+.html {width: 90%; background-color: #04AA6D;box-sizing: border-box;border-radius:20px;overflow: hidden; 
+    white-space: nowrap;
+    animation: typing 1s steps(90, end);}
+
+
+  
+.css {width: 80%; background-color: #2196F3;box-sizing: border-box;border-radius:20px;overflow: hidden; white-space: nowrap;animation: typing 1s steps(80, end); }
+.js {width: 65%; background-color: #f44336;box-sizing: border-box;border-radius:20px;overflow: hidden; white-space: nowrap;animation: typing 1s steps(65, end);}
+.sql {width: 70%; background-color: #edff27;box-sizing: border-box;border-radius:20px;overflow: hidden; white-space: nowrap;animation: typing 1s steps(70, end);}
+.python{width: 65%; background-color: #5dff27;box-sizing: border-box;border-radius:20px;overflow: hidden; white-space: nowrap;animation: typing 1s steps(65, end);}	
+.wordpress{width: 50%; background-color: #ff27c5;box-sizing: border-box;border-radius:20px;overflow: hidden; white-space: nowrap;animation: typing 1s steps(50, end);}	
+.canva{width: 70%; background-color: #87f7fb;box-sizing: border-box;border-radius:20px;overflow: hidden; white-space: nowrap;animation: typing 1s steps(70, end);}
+
+#background-2{
+    background-color: #d3edf3;
+    height: 450px;
+    width: 100%;
+}
+.qual-head{
+    padding-left: 100px ;
+    padding-top: 60px;
+    font-size: larger;
+    color: rgb(110, 88, 88);
+}
+.class ul{
+    padding-left: 78px;
+    color: rgb(110, 88, 88)
+}
+
+.class{
+    
+    padding-top: 20px;
+}
+.qualification{
+    display: flex;
+}
+
+section:target{
+    display: block;
+}
+#contact-me{
+    background-color: rgb(237, 210, 237);
+    height: 550px;
+    width: 100%;
+    
+}
+.cont-head{
+    padding-left: 100px ;
+    padding-top: 60px;
+    font-size: large;
+    color: rgb(110, 88, 88);
+}
+
+#contact-me img{
+    padding-top: 60px;
+    padding-right: 150px;
+    height: 350px;
+    width: 500px;
+    opacity: 75%;
+    box-sizing: border-box; 
+}
+.contact-me-img{
+    padding-left: 200px;
+}
+.email ul{
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 250px;
+    color: rgb(110, 88, 88);
+    box-sizing: border-box;
+}
+.icon{
+    padding-top: 200px;
+    
+    display: flex;
+    
+}
+.fa{
+      
+      margin: 5px 2px;  
+      height: 50px;
+      width: 50px;  
+      font-size:larger;
+}
+.fa-instagram{
+    color: white;
+    font-weight: bolder;
+    
+}
+.fa-linkedin{
+    color: white;
+}
+.custom-icon{
+    height: 50px;
+}
+.socios{
+    display: flex;
+}
+.my-icon{
+    display: flex;
+}
+
+.copyright{
+    padding: 20px;
+    font-weight: bolder;
+    background-color: #d3edf3;
+    color: black;
+}
+@media screen and(max-width: 768px){
+    #intro{
+        flex-direction: column;
+    }
+    .myself{
+        text-align: center;
+    }
+    .photo{
+        text-align: center;
+        padding-top: 100px;
+    }
+}
