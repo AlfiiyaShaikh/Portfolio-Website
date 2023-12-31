@@ -8,6 +8,7 @@ nav {
     position:sticky;
     top: 0px;
     z-index: 9999;	
+   
 }
 nav ul {
     
@@ -30,6 +31,7 @@ nav ul li a:hover {
     color:rgb(123, 106, 106);
 }
 h2 a{
+    margin-top:20px ;
      text-decoration: none;
      color:#fff;
      text-align-last: initial;
@@ -254,25 +256,21 @@ section:target{
     box-sizing: border-box;
 }
 .icon{
-    padding-top: 200px;
-    
     display: flex;
-    
 }
 .fa{
-      
-      margin: 5px 2px;  
-      height: 50px;
       width: 50px;  
       font-size:larger;
 }
 .fa-instagram{
-    color: white;
-    font-weight: bolder;
-    
+    color: rgb(110, 88, 88);
+    font-weight: bolder;   
 }
 .fa-linkedin{
-    color: white;
+    color:  rgb(110, 88, 88);
+}
+.fa-github{
+    color:  rgb(110, 88, 88);
 }
 .custom-icon{
     height: 50px;
